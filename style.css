@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Roboto&family=Source+Sans+Pro:ital@1&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: whitesmoke;
+    font-family: 'Roboto', sans-serif;
+    margin: 0 auto;
+    text-align: center;
+    /* border-left: 1px solid black; */
+    /* border-right: 1px solid black; */
+    /* padding-bottom: 3.5rem; */
+    max-width: 60%;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-bottom: 2px solid rgb(233, 228, 228);
+    padding-bottom: 1rem;
+    background-color: rgb(19, 19, 19);
+    height: 10px;
+    border-radius: 10px;
+}
+
+
+.menu li{
+    list-style: none;
+}
+
+.menu li a{
+    text-decoration: none;
+    font-size: 1rem;
+    color: black;
+    background-color: rgb(243, 243, 197);
+    border: 1.2px solid rgb(186, 184, 184);
+    border-radius: 10px;
+    padding: 0.5rem 1rem;
+}
+.menu li a{
+    text-decoration: none;
+    color: black;
+}
+
+.menu li a:visited{
+    color: rgb(35, 33, 33);
+    background-color: #f3ecec;
+}
+.menu li a:hover,
+.menu li a:focus{
+    background-color: #333;
+    color: aliceblue;
+}
+ 
+.hero{
+    border: 2px solid black;
+    border-radius: 2rem;
+    margin-top: 2rem;
+    font-size: 2rem;
+    display: inline-block;
+    max-width: 350px;
+}
+
+div{
+    margin-top: 2rem;
+}
+
+#kabul{
+    margin-top: 2.6rem;
+
+}
+
+
+.hero h2{
+    background-color: rgb(243, 243, 197);
+    border-radius: 2rem 2rem 0 0;
+    font-size: 3rem;
+    padding: 1.5rem;
+}
+
+.hero ul li{
+    list-style-type: none;
+    line-height: 4rem;
+    border: 1px solid black;
+}
+
+.hero ul li:nth-child(5){
+    border-radius: 0 0 1.88rem 1.88rem;
+}
+
+.hero li a{
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+.hero li a:hover,
+.hero li a:focus{
+    background-color: #333;
+    color: aliceblue;
+}
+
+footer{
+    margin-top: 1rem;
+}
+.hero li:last-child a{
+    border-radius: 0 0 1.88rem 1.88rem;
+}
+
+footer .hashmat{
+    margin-top: 0.8rem;
+    margin-bottom: 0.2rem;
+    font-family:  'Roboto', sans-serif;
+    font-size: 0.8rem;
+}
+
