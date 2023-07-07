@@ -10,4 +10,4 @@ To use the BookStagram website locally, follow these steps:
 
 Clone the repository to your local machine using the following command:
 
-<code>git clone https://github.com/your-username/bookshelf.git</code>
+<code>git@github.com:datapirate28/BookStagram-Web.git</code>
